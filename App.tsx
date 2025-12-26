@@ -4,7 +4,7 @@ import { DialogueView } from './components/DialogueView';
 import { Logo } from './components/Logo';
 import { DialogueLine, DifficultyLevel, VoiceName } from './types';
 import { generateDialogueText, generateDialogueAudio } from './services/geminiService';
-import { pcmToWavBlobUrl } from './utils/audioUtils';
+import { pcmToWavBlobUrl } from './audioUtils';
 
 export default function App() {
   const [topic, setTopic] = useState('');
